@@ -67,6 +67,7 @@ return new_hash
 end
 
 def movies_with_directors_set(source)
+  binding.pry
 newer_array = []
 counter = 0 
 while counter < source.length do 
