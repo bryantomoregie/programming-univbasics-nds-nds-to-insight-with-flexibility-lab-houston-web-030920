@@ -67,8 +67,14 @@ return new_hash
 end
 
 def movies_with_directors_set(source)
-newer_array 
+newer_array = []
+counter = 0 
+while counter < source.length do 
+newer_array << 
 
+
+counter += 1 
+end
 end
 # We want to call the movies_with_director_key for each director, rather than just one. And then return an array of each directors movies arrays. 
 # We want the movies_with_director_key new_array to be pushed into a newer array, and be done for each director and their movies. 
