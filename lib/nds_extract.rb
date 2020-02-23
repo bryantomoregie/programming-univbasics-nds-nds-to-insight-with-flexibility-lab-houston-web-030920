@@ -72,7 +72,7 @@ newer_array = []
 counter = 0 
 while counter < source.length do 
 
-newer_array << movies_with_director_key(source[counter][:name],  source[counter][:movies])
+newer_array << movies_with_director_key(source[counter][:name], source[counter][:movies])
 # binding.pry
 counter += 1 
 end
