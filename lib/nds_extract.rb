@@ -67,7 +67,7 @@ return new_hash
 end
 
 def movies_with_directors_set(source)
-
+newer_array 
 
 end
 # We want to call the movies_with_director_key for each director, rather than just one. And then return an array of each directors movies arrays. 
