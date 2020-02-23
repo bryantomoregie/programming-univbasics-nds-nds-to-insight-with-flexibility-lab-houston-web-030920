@@ -76,6 +76,7 @@ newer_array << movies_with_director_key(source[counter][:name], source[counter][
 # binding.pry
 counter += 1 
 end
+return newer_array
 end
 # We want to call the movies_with_director_key for each director, rather than just one. And then return an array of each directors movies arrays. 
 # We want the movies_with_director_key new_array to be pushed into a newer array, and be done for each director and their movies. 
